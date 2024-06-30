@@ -50,7 +50,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} 𝐁𝐫𝐨/𝐒𝐢𝐬 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..\n\n 𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐜𝐥𝐢𝐜𝐤 𝐨𝐧 “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝑯𝒆𝒚!! {mention} 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 @Anime_Eternals 𝒄𝒉𝒂𝒏𝒏𝒆𝒍𝒔\n\n 𝑻𝒐 𝒂𝒄𝒄𝒆𝒔𝒔 𝒕𝒉𝒆𝒔𝒆 𝒇𝒊𝒍𝒆𝒔 𝒚𝒐𝒖 𝒉𝒂𝒗𝒆 𝒕𝒐 𝒋𝒐𝒊𝒏 𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍 𝒇𝒊𝒓𝒔𝒕. 𝑷𝒍𝒆𝒂𝒔𝒆 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒕𝒐 𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍𝒔 𝒕𝒉𝒓𝒐𝒖𝒈𝒉 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒃𝒆𝒍𝒐𝒘 𝒂𝒏𝒅 𝒕𝒉𝒆𝒏 𝒕𝒂𝒑 𝒐𝒏 𝒕𝒓𝒚 𝒂𝒈𝒂𝒊𝒏 𝒕𝒐 𝒈𝒆𝒕 𝒚𝒐𝒖𝒓 𝒇𝒊𝒍𝒆𝒔.....\n\n 𝑭𝒐𝒓 𝑶𝒏𝒈𝒐𝒊𝒏𝒈 𝑨𝒏𝒊𝒎𝒆 @Anime_Ongoing_Airings 𝑱𝒐𝒊𝒏 𝑻𝒉𝒊𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍.....\n\n 𝑻𝒉𝒂𝒏𝒌 𝒀𝒐𝒖.......🍁\n\n » @AnimeNexusNetwork")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
