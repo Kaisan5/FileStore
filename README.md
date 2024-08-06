@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/f62fde5714f4896beec32.jpg" alt="3 FSub File Store by codeflix bots">
+  <img src="https://telegra.ph/file/234563c7055ee5a7d72b1.jpg" alt="3 FSub File Store by codeflix bots">
 </p>
 <h2 align="center">
 
