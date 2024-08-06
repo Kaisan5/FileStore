@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴋᴀɪ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Eternals'>ᴀɴɪᴍᴇ ᴇᴛᴇʀɴᴀʟꜱ</a>\n○  ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ: <a href='https://t.me/Anime_Ongoing_Airings'>ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢꜱ</a>\n○ ɢʀᴏᴜᴘ ᴄʜᴀᴛ: <a href='https://t.me/AnimeChatNexus'>ɴᴇxᴜꜱ ᴄʜᴀᴛ</a>\n○ ɴᴇᴛᴡᴏʀᴋ: <a href='https://t.me/AnimeNexusNetwork'>ᴀɴɪᴍᴇ ɴᴇxᴜꜱ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ᴋᴀɪ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Eternals'>ᴀɴɪᴍᴇ ᴇᴛᴇʀɴᴀʟꜱ</a>\n○  ᴏɴɢᴏɪɴɢ ᴀɴɪᴍᴇ: <a href='https://t.me/Anime_Ongoing_Airings'>ᴏɴɢᴏɪɴɢ ᴀɪʀɪɴɢꜱ</a>\n○ ɢʀᴏᴜᴘ ᴄʜᴀᴛ: <a href='https://t.me/Anime_Chat_Stelleron'>ɴᴇxᴜꜱ ᴄʜᴀᴛ</a>\n○ ɴᴇᴛᴡᴏʀᴋ: <a href='https://t.me/AnimeNexusNetwork'>ᴀɴɪᴍᴇ ɴᴇxᴜꜱ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
