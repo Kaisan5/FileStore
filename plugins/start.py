@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/AnimeNexusNetwork')
+                    InlineKeyboardButton('🍁 ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/AnimeNexusNetwork/98')
                 ]
             ]
         )
