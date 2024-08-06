@@ -82,7 +82,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Animes_Eternals")
-        self.LOGGER(__name__).info(r"""\n\n       
+        self.LOGGER(__name__).info(r""" \n\n       
 
   _____ ____  _____  ______ ______ _      _______   ______   ____ _______ _____ 
  / ____/ __ \|  __ \|  ____|  ____| |    |_   _\ \ / /  _ \ / __ \__   __/ ____|
@@ -92,7 +92,7 @@ class Bot(Client):
  \_____\____/|_____/|______|_|    |______|_____/_/ \_\____/ \____/  |_| |_____/ 
                                                                                 
                                                                                 
-                                          """)
+                               r"\|"   """)
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
